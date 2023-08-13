@@ -1,0 +1,69 @@
+table.dataTable tbody th, table.dataTable tbody td {
+  padding: 8px 10px;
+  white-space: nowrap !important;
+}
+
+#tbl-clientes thead, #tbl-categorias thead, #tbl-productos thead, #tbl-servicios thead{
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.selected {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.mn{
+  cursor: pointer;
+}
+
+input.no-spin::-webkit-inner-spin-button,
+input.no-spin::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.select-form-all{
+  appearance: auto !important;
+}
+
+input.no-spin{
+  appearance: textfield;
+}
+
+.text-center-p {
+  text-align: center !important;
+}
+
+.transparentBar {
+  background-repeat: no-repeat !important;
+  background-image: none !important;
+  background-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: transparent! important;
+}
+
+.transparentBar:hover {
+  color: transparent !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.swal2-title{
+  padding-left: 8px !important;
+}
+
+
+@media screen and (max-width: 767px) {
+  #tbl-ventas {
+    overflow-x: auto; /* Activar el desplazamiento horizontal */
+    white-space: nowrap; /* Evitar el retorno de línea en las celdas */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ocultar-columna{
+    display: none;
+  }
+}

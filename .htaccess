@@ -1,0 +1,8 @@
+#deshabilita toda la lista de directorios en el navegador
+Options All -Indexes
+
+# Activar el motor de reescritura
+RewriteEngine On
+
+# primero va la expresion regular q evalua lo q llevara la url / url esla variable get q toma la ruta
+RewriteRule ^([-a-zA-Z0-9]+)$ index.php?url=$1 [L,QSA]
