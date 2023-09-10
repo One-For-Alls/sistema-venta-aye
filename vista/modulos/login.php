@@ -3,7 +3,7 @@
 <body class="login-page">
   <div class="login-box">
     <div class="login-logo">
-      <a href="#" class="text-primary"><b class="text-danger">A & E </b> Style</a>
+      <a href="#" class="text-primary"><b class="text-danger">A & E </b> Store</a>
     </div>
 
     <div class="card">
