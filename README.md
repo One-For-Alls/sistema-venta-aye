@@ -13,7 +13,7 @@ cuenta con los siguientes modulos:
 - podemos gestionar el inventario de los productos , aumentar y disminuir el stock de cada producto, este tambien dara alertar de si se superar el minimo stock
 - el resto de modulos aun se encuentrar en proceso...
 
-  ### TEVNOLOGIAS UTILIZADAS
+  ### TECNOLOGIAS UTILIZADAS
 
 ![HTML](https://img.shields.io/badge/HTML5-white?style=for-the-badge&logo=html5&logoColor=white&color=orange)
 ![CSS](https://img.shields.io/badge/CSS3-white?style=for-the-badge&logo=css3&logoColor=white&color=blue)
